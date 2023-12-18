@@ -1,0 +1,33 @@
+.news-card{
+    width:31%;
+    padding: 1vh;
+    border: 2px solid #ccc;
+    margin-bottom: 3vh;
+    box-shadow: 0 0 1vh #d4cccc;
+    overflow-y:scroll;
+}
+
+.article-image{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.news-info{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-more{
+   display: block;
+   margin-top: 2vh;
+   text-decoration: none;
+   background-color: black;
+   color: white;
+   padding:1vh 2vh;
+   border-radius: 2vh;
+   width: fit-content;
+   cursor: pointer;
+}
